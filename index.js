@@ -65,6 +65,10 @@ app.get("/", (req, res) => {
   res.send("hello genisu Car Server");
 });
 
+app.get("/hello", (req, res) => {
+  res.send("Hello page");
+});
+
 app.listen(port, () => {
   console.log("Starting Port", port);
 });
